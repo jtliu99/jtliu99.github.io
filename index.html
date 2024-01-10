@@ -2,13 +2,44 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>MathJax Example</title>
-  <!-- Load MathJax from a CDN -->
-  <script src="^1^" id="MathJax-script" async></script>
+  <title>MathML Example</title>
 </head>
 <body>
-  <h1>MathJax Example</h1>
-  <p>This is an example of using MathJax to display a LaTeX formula in HTML.</p>
-  <p>The area of a circle is given by the formula \[A = \pi r^2\]</p>
+  <h1>MathML Example</h1>
+  <p>This is an example of using MathML to display a quadratic equation in HTML.</p>
+  <math xmlns="^5^">
+    <mrow>
+      <mi>x</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mo>-</mo>
+          <mi>b</mi>
+          <mo>±</mo>
+          <msqrt>
+            <mrow>
+              <msup>
+                <mi>b</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>-</mo>
+              <mrow>
+                <mn>4</mn>
+                <mo>⁢</mo>
+                <mi>a</mi>
+                <mo>⁢</mo>
+                <mi>c</mi>
+              </mrow>
+            </mrow>
+          </msqrt>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mo>⁢</mo>
+          <mi>a</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+  </math>
 </body>
 </html>
