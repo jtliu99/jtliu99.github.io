@@ -13,6 +13,8 @@ from the root of the `main` branch; `.nojekyll` disables Jekyll processing.
 - `cv.html` and `CV-Junting.pdf`: curriculum vitae.
 - `style.css`: Latin Modern typography, spacing, and light/dark colors.
 - `theme.js`: theme toggle and saved visitor preference.
+- `sitemap.xml` and `robots.txt`: page discovery for search engines. Update the
+  sitemap and each page's canonical URL when adding or renaming pages.
 
 The Latin Modern Roman font files and their license are in `assets/fonts/`.
 No build step or external font service is required.
