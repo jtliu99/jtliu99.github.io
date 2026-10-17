@@ -19,6 +19,9 @@ from the root of the `main` branch; `.nojekyll` disables Jekyll processing.
 The Latin Modern Roman font files and their license are in `assets/fonts/`.
 No build step or external font service is required.
 
+Keep the `google-site-verification` meta tag in `index.html` to retain Google
+Search Console ownership verification.
+
 ## Local preview
 
 Run `python3 -m http.server 8765 --bind 127.0.0.1` from this folder,
